@@ -28,8 +28,8 @@ export default function Header() {
 
   return (
     <div
-      className={`flex justify-between sticky top-0 z-20 transition duration-200  p-4 ${
-        isActive ? "bg-slate-50 shadow-lg" : "bg-transparent"
+      className={`flex justify-between sticky top-0 z-20 transition duration-200 border-b  p-4 ${
+        isActive ? "bg-slate-100 shadow-lg" : "bg-[#F5E6E0]"
       }`}
     >
       <Link to={"/"}>

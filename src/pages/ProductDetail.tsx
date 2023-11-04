@@ -24,10 +24,10 @@ export default function ProductDetail() {
               <path
                 fill="none"
                 stroke="#F5E6E0"
-                stroke-width="15"
-                stroke-linecap="round"
-                stroke-dasharray="300 385"
-                stroke-dashoffset="0"
+                strokeWidth="15"
+                strokeLinecap="round"
+                strokeDasharray="300 385"
+                strokeDashoffset="0"
                 d="M275 75c0 31-27 50-50 50-58 0-92-100-150-100-28 0-50 22-50 50s23 50 50 50c58 0 92-100 150-100 24 0 50 19 50 50Z"
               >
                 <animate
@@ -56,7 +56,7 @@ export default function ProductDetail() {
             </div>
             {/* info and button */}
             <div className="text-center grid justify-center content-center gap-y-6 lg:text-left">
-              <h1 className="text-3xl font-semibold text-primary max-w-[30ch]">
+              <h1 className="text-3xl font-semibold text-primary">
                 {curProduct?.title}
               </h1>
               <p className="text-xl font-medium text-red-500 ">
@@ -66,7 +66,7 @@ export default function ProductDetail() {
                 {curProduct?.description}
               </p>
               <button
-                className="bg-primary py-4 px-8 text-white w-max mt-4 hover:bg-red-500 transition duration-150"
+                className="bg-primary py-4 px-8 text-white w-max max-lg:mx-auto mt-4 hover:bg-red-500 transition duration-150"
                 onClick={() => {
                   dispatch(addToCart(curProduct));
                 }}
