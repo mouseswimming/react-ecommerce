@@ -1,27 +1,55 @@
-# React + TypeScript + Vite
+# Ecommerce App (React + TypeScript + Redux Toolkit + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[demo](https://vivian-react-store.netlify.app/)
 
-Currently, two official plugins are available:
+![image](https://github.com/mouseswimming/react-ecommerce/assets/2342125/22ae6a87-6ec7-4e8e-9a9a-ac997f70a4da)
+![image](https://github.com/mouseswimming/react-ecommerce/assets/2342125/7f03d66d-9d9a-4f87-9f8b-476cfa47e9eb)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## Expanding the ESLint configuration
+This is an Ecommerce web application built with a modern tech stack, offering a functional and responsive online shopping experience.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- React
+- Redux Toolkit
+- TypeScript
+- Tailwind CSS
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## Features
+
+- View a wide range of products
+- Add products to the cart
+- Remove products from the cart
+- Adjust product quantities in the cart
+- Simulate an ecommerce experience
+
+## API Integration
+
+This application leverages the [Fake Store API](https://fakestoreapi.com/) to fetch product data. This API provides a variety of product categories, making it an ideal choice for simulating an ecommerce store.
+
+## Getting Started
+
+To run this application on your local machine, follow these steps:
+
+```sh
+npm install to install all the dependecies
+npm run dev to run the app in development mode
+npm run build to build app for production
 ```
+To run this application on your local machine, follow these steps:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+The application should now be accessible in your web browser at `http://localhost:3000`.
+
+## Usage
+
+Feel free to explore the different product categories, add products to your cart, and experience the functionalities of this Ecommerce app. You can also use this project as a starting point for building your own Ecommerce applications.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). If you like it, please star it.
+
+Happy shopping!
+
