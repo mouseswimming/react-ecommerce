@@ -2,8 +2,11 @@ import WomanImg from "../assets/woman_hero2.png";
 
 export default function Hero() {
   return (
-    <section className="h-[700px] bg-hero bg-cover bg-no-repeat bg-center px-8 -mt-20">
-      <div className="container m-auto flex justify-around h-full items-center pt-8">
+    <section
+      className="h-[700px] bg-cover bg-no-repeat bg-center px-8 -mt-20 pt-20"
+      style={{ backgroundImage: `url("/bg_hero.svg")` }}
+    >
+      <div className="container m-auto flex justify-around h-full items-center">
         <div>
           <div className="flex items-center gap-x-2 mb-4 text-lg">
             <div className="w-10 h-1 bg-red-500"></div>
@@ -15,7 +18,7 @@ export default function Hero() {
           </p>
         </div>
         <div className="hidden lg:block shrink-0">
-          <img src={WomanImg} alt="" />
+          <img src={WomanImg} alt="" className="max-h-full" />
         </div>
       </div>
     </section>
